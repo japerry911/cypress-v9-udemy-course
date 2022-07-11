@@ -1,0 +1,35 @@
+- cypress
+  - automated testing framework
+- game changers
+  - time travel
+    - takes snapchats as your tests run
+  - debuggability
+    - great for debugging
+  - real time reloads
+    - automatically reloads when you make changes to your test
+  - automatic waiting
+    - never adds waits or sleeps to your tests, cypress automatically does this
+  - spies, stubs, and clocks
+  - network traffic control
+  - consistent results
+    - no selenium or webDriver
+  - view screenshots/videos
+- does not use selenium
+  - most end-to-end testing tools are selenium-based
+- cypress focuses on doing end-to-end testing really well
+- works on any framework or website
+- tests are written only in JavaScript
+- Cypress is all in one
+- cypress is for developers and QA engineers
+- runs much, much faster
+- pros
+  - easy to set up
+  - quick and very stable
+  - flake resistent
+    - cypress is notified the omment the page loads and the moment the page unloads, impossible to miss elements when it fires events
+  - API testing
+    - ability to test and mock APIs
+- cons
+  - ideally some knowledge/experience using JavaScript
+  - no mobile testing
+  - single domain and single tab

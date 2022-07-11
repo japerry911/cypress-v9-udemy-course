@@ -1,0 +1,2 @@
+- can use the following command to use Cypress, not revamped for v10 yet
+  - `npm install --save-dev cypress@9.7.0`
