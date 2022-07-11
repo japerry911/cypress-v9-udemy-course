@@ -33,3 +33,35 @@
   - ideally some knowledge/experience using JavaScript
   - no mobile testing
   - single domain and single tab
+- `cypress.json`
+  - change cypress default settings
+- `cypress/support/index.js`
+  - add additional imports, event listeners, etc...
+- `cypress/support/commands.js`
+  - houses commands
+  - reduces redundency and re-uses code
+- `cypress/plugins/index.js`
+  - extend from cypress functionality
+- `cypress/fixtures`
+  - store any test data that is needed
+    - mock objects
+    - mock data
+    - etc...
+- `cypress/integration`
+  - the main folder where test files are stored
+  - cypress test runner will look into this folder in order to locate test files
+- mocha
+  - feature-rich JavaScript test framework running on Node.js and in the browser, making asynchronous testing simple and fun
+  - tests run serially
+    - allows for flexible and accurate reporting, while mapping uncaught exceptions to the correct test cases
+  - cmoes pre bundled with two function calls
+    - `describe()`
+      - simply a way to group our tests
+        - enabling us to group a series of tests together
+      - 2 arguments
+        1. name of the test group
+        2. call-back function
+    - `it()`
+      - a way to describe each individual test case which is nested inside of the `describe()` block
+      - should be described in a way that makes sense for the given test case
+      - used to describe the individual test cases
